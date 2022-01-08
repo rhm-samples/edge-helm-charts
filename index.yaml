@@ -9,6 +9,6 @@ entries:
     name: helm-chart-test
     type: application
     urls:
-    - https://github.com/rhm-samples/edge-helm-charts/helm-chart-test-0.1.0.tgz
+    - https://rhm-samples.github.io/edge-helm-charts/helm-chart-test-0.1.0.tgz
     version: 0.1.0
 generated: "2022-01-08T04:06:07.347971152-06:00"
