@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-08T05:16:33.688164712-06:00"
+    created: "2022-01-11T10:50:29.406455533-06:00"
     description: A Helm chart for Kubernetes
     digest: 78221bee9461378bc1b5d382698e9b08d5ad7d6cb2bdb08141fef8a7c26362ee
     name: helm-chart-test
@@ -13,12 +13,32 @@ entries:
     version: 0.1.0
   nodered-chart:
   - annotations:
+      charts.openshift.io/archs: x86_64
       charts.openshift.io/name: Node Red Chart
+      charts.openshift.io/provider: IBM-Edge
+      charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-08T05:16:33.68910682-06:00"
+    created: "2022-01-11T10:50:29.408426048-06:00"
     description: A Helm chart for NodeRed.
-    digest: e4482f0ccfd83bf3f2516491105e83d1da2c786d1228f473bf7fc933b806bd60
+    digest: 8c4683f96e609fb45d959896b85893616493f93a2ee8953eb67af6039cfc1d89
+    icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
+    kubeVersion: '>=1.18.0'
+    name: nodered-chart
+    type: application
+    urls:
+    - https://rhm-samples.github.io/edge-helm-charts/nodered-chart-0.0.2.tgz
+    version: 0.0.2
+  - annotations:
+      charts.openshift.io/archs: x86_64
+      charts.openshift.io/name: Node Red Chart
+      charts.openshift.io/provider: IBM-Edge
+      charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-11T10:50:29.407504386-06:00"
+    description: A Helm chart for NodeRed.
+    digest: 8bc2576c5c07648ea377e68cbc5151e3c7799d1563256ebe571772e86e3e3746
     icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
     kubeVersion: '>=1.18.0'
     name: nodered-chart
@@ -26,4 +46,4 @@ entries:
     urls:
     - https://rhm-samples.github.io/edge-helm-charts/nodered-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-08T05:16:33.687112633-06:00"
+generated: "2022-01-11T10:50:29.405605309-06:00"
