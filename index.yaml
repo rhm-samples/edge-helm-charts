@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T00:14:31.650691804-06:00"
+    created: "2022-01-12T00:53:22.345014575-06:00"
     description: A Helm chart for Kubernetes
     digest: 78221bee9461378bc1b5d382698e9b08d5ad7d6cb2bdb08141fef8a7c26362ee
     name: helm-chart-test
@@ -19,9 +19,9 @@ entries:
       charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T00:14:31.653698901-06:00"
+    created: "2022-01-12T00:53:22.347038694-06:00"
     description: A Helm chart for NodeRed.
-    digest: 36ad62cba904cf1c0a695843576d9443afcf461b214f224d355f9cf1edbdb473
+    digest: 608a91cac8be3d8622b39d6560e0396d77accf935f9cae21b7d1bc2c88d129a9
     icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
     kubeVersion: '>=1.18.0'
     name: nodered-chart
@@ -36,7 +36,7 @@ entries:
       charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T00:14:31.652757173-06:00"
+    created: "2022-01-12T00:53:22.346143905-06:00"
     description: A Helm chart for NodeRed.
     digest: 8bc2576c5c07648ea377e68cbc5151e3c7799d1563256ebe571772e86e3e3746
     icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
@@ -46,4 +46,4 @@ entries:
     urls:
     - https://rhm-samples.github.io/edge-helm-charts/nodered-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-12T00:14:31.649827294-06:00"
+generated: "2022-01-12T00:53:22.344203125-06:00"
