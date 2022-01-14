@@ -3,7 +3,7 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T06:39:06.372387806-06:00"
+    created: "2022-01-14T07:22:52.539353265-06:00"
     description: A Helm chart for Kubernetes
     digest: 78221bee9461378bc1b5d382698e9b08d5ad7d6cb2bdb08141fef8a7c26362ee
     name: helm-chart-test
@@ -19,7 +19,24 @@ entries:
       charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T06:39:06.374905085-06:00"
+    created: "2022-01-14T07:22:52.544573787-06:00"
+    description: A Helm chart for NodeRed.
+    digest: f29558295f24ea49f87523a230b67b941180ba95775e6ea4533bcd8c2b5b40c5
+    icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
+    kubeVersion: '>=1.18.0'
+    name: nodered-chart
+    type: application
+    urls:
+    - https://rhm-samples.github.io/edge-helm-charts/nodered-chart-0.0.3.tgz
+    version: 0.0.3
+  - annotations:
+      charts.openshift.io/archs: x86_64
+      charts.openshift.io/name: Node Red Chart
+      charts.openshift.io/provider: IBM-Edge
+      charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
+    apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-14T07:22:52.541624568-06:00"
     description: A Helm chart for NodeRed.
     digest: 9c6bf9aec6400687816d5136a3a3758f02bdb47c3f88a21902cd079c6465a665
     icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
@@ -36,7 +53,7 @@ entries:
       charts.openshift.io/supportURL: https://github.com/rhm-samples/node-red-operator/issues
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-12T06:39:06.373428958-06:00"
+    created: "2022-01-14T07:22:52.540461136-06:00"
     description: A Helm chart for NodeRed.
     digest: 8bc2576c5c07648ea377e68cbc5151e3c7799d1563256ebe571772e86e3e3746
     icon: https://raw.githubusercontent.com/rhm-samples/node-red-operator/node-red-logo/_images/nodered-logo.png
@@ -46,4 +63,4 @@ entries:
     urls:
     - https://rhm-samples.github.io/edge-helm-charts/nodered-chart-0.0.1.tgz
     version: 0.0.1
-generated: "2022-01-12T06:39:06.371546735-06:00"
+generated: "2022-01-14T07:22:52.538529281-06:00"
